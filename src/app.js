@@ -51,3 +51,5 @@ app.delete("/livros/:id", (req, res) => {
 });
 
 export default app;
+
+// mongodb+srv://braiansantos_db_user:Oj8RwOWIMpDY637e@cluster0.boily7p.mongodb.net/?appName=Cluster0
