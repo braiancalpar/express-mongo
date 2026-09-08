@@ -1,6 +1,6 @@
-import moongose from "mongoose";
+import mongoose from "mongoose";
 
-const autorSchema = new moongose.Schema(
+const autorSchema = new mongoose.Schema(
   {
     id: { type: mongoose.Schema.Types.ObjectId },
     nome: { type: String, required: true },
@@ -9,6 +9,6 @@ const autorSchema = new moongose.Schema(
   { versionKey: false },
 );
 
-const autor = moongose.model("autores", autorSchema);
+const autor = mongoose.model("autores", autorSchema);
 
 export { autor, autorSchema };
